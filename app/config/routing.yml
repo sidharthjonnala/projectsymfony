@@ -1,0 +1,14 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+homepage:
+    path: /
+    defaults: {_controller: AppBundle:Default:index}
+
+aboutpage:
+    path: /about
+    defaults: {_controller: AppBundle:Default:about}
+
+newPage:
+    path: /new/{myClass}
+    defaults: {_controller: AppBundle:New:show}
