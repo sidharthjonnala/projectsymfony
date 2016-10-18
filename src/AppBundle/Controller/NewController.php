@@ -21,5 +21,6 @@ class NewController
         return new Response($myClass.' is new class');
 
     }
+    
 
 }
